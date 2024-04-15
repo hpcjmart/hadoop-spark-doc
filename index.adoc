@@ -1,0 +1,53 @@
+////
+NO CAMBIAR!!
+Codificación, idioma, tabla de contenidos, tipo de documento
+////
+:encoding: utf-8
+:lang: es
+:toc: right
+:toc-title: Tabla de contenidos
+:doctype: book
+:linkattrs:
+
+////
+Nombre y título del trabajo
+////
+# Cassandra - Bases de datos a gran escala
+Máster en Tecnonlogías y Aplicaciones en Ingeniería Informática. Universidad de Almería
+Manuel Torres <mtorres@ual.es>
+
+
+image::images/di.png[]
+
+// NO CAMBIAR!! (Entrar en modo no numerado de apartados)
+:numbered!: 
+
+
+[abstract]
+== Resumen
+////
+COLOCA A CONTINUACION EL RESUMEN
+////
+Cassandra es una base de datos distribuida y escalable que ofrece alta disponibilidad y tolerancia a fallos. Desarrollada inicialmente por Facebook y donada a la Apache Software Foundation, se ha convertido en una de las bases de datos NoSQL más populares. Con un modelo de datos flexible y una arquitectura descentralizada, Cassandra permite el escalado horizontal y la replicación de datos en múltiples nodos. Su lenguaje de consulta basado en SQL facilita la interacción con la base de datos. En resumen, Cassandra es una solución robusta para aplicaciones que requieren escalabilidad y confiabilidad en entornos distribuidos.
+
+////
+COLOCA A CONTINUACION LOS OBJETIVOS
+////
+.Objetivos
+* Conocer las características y ventajas de Cassandra como base de datos distribuida y escalable.
+* Comprender los conceptos de consistencia eventual y replicación de datos en Cassandra.
+* Aprender a diseñar y gestionar clústeres de Cassandra para aplicaciones de alta disponibilidad y tolerancia a fallos.
+* Familiarizarse con el lenguaje de consulta CQL y las mejores prácticas para interactuar con Cassandra.
+* Explorar casos de uso y ejemplos de aplicaciones que se benefician de las capacidades de escalabilidad y tolerancia a fallos de Cassandra.
+* Crear una API REST utilizando Cassandra como base de datos para una aplicación web.
+
+[TIP]
+====
+Disponible el https://github.com/ualmtorres/cassandra-music-rest-api.git[repositorio de GitHub] con el código fuente de la API REST desarrollada en este tutorial.
+====
+
+// NO CAMBIAR!! (Entrar en modo numerado de apartados)
+:numbered: 
+
+== Introducción
+Cassandra es una base de datos distribuida y escalable que fue desarrollada inicialmente por Facebook en 2008 y posteriormente donada a la Apache Software Foundation en 2009. Desde entonces, ha experimentado un crecimiento significativo y se ha convertido en una de las bases de datos NoSQL más populares para aplicaciones que requieren escalabilidad y alta disponibilidad. Como características principales destacan:
